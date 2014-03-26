@@ -5,7 +5,7 @@ import android.util.Log;
 /**
  * Log class
  * 
- * @author Xiao Mei
+ * @author Song Wang
  * @weibo http://weibo.com/u/1675796095
  * @email tss_chs@126.com
  * 

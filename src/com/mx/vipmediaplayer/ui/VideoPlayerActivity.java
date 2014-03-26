@@ -34,9 +34,8 @@ import com.mx.vipmediaplayer.R;
 /**
  * Video player activity class
  * 
- * @author Xiao Mei
- * @weibo http://weibo.com/u/1675796095
- * @email tss_chs@126.com
+ * @author Song Wang
+ * @email song.wang.au@gmail.com
  * 
  */
 public class VideoPlayerActivity extends Activity implements OnCompletionListener, OnInfoListener {

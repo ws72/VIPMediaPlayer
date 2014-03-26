@@ -8,8 +8,8 @@ import com.j256.ormlite.table.DatabaseTable;
 /**
  * Online video class
  * 
- * @author Xiao Mei
- * @weibo http://weibo.com/u/1675796095
+ * @author Song Wang
+ * @email song.wang.au@gmail.com
  * 
  */
 

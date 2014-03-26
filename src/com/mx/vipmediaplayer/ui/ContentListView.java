@@ -25,9 +25,8 @@ import com.mx.vipmediaplayer.ui.helper.XmlReaderHelper;
 /**
  * Content ListView class
  * 
- * @author Xiao Mei
- * @weibo http://weibo.com/u/1675796095
- * @email tss_chs@126.com
+ * @author Song Wang
+ * @email song.wang.au@gmail.com
  * 
  */
 public class ContentListView extends ListView implements AdapterView.OnItemClickListener{

@@ -9,9 +9,8 @@ import net.sourceforge.pinyin4j.format.exception.BadHanyuPinyinOutputFormatCombi
 /**
  * Pinyi Utils class
  * 
- * @author Xiao Mei
- * @weibo http://weibo.com/u/1675796095
- * @email tss_chs@126.com
+ * @author Song Wang
+ * @email song.wang.au@gmail.com
  * 
  */
 public final class PinyinUtils {

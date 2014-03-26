@@ -11,9 +11,8 @@ import android.content.SharedPreferences;
 /**
  * Preference Storage system class
  * 
- * @author Xiao Mei
- * @weibo http://weibo.com/u/1675796095
- * @email tss_chs@126.com
+ * @author Song Wang
+ * @email song.wang.au@gmail.com
  * 
  */
 public class VipPreference {

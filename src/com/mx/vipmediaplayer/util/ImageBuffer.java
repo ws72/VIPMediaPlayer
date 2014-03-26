@@ -21,9 +21,8 @@ import com.mx.vipmediaplayer.model.VIPMediaBitmap;
 /**
  * Image Buffer class
  * 
- * @author Xiao Mei
- * @weibo http://weibo.com/u/1675796095
- * @email tss_chs@126.com
+ * @author Song Wang
+ * @email song.wang.au@gmail.com
  * 
  */
 

@@ -8,22 +8,19 @@ import java.util.Map;
 import android.content.ContentValues;
 
 import com.j256.ormlite.dao.Dao;
-import com.j256.ormlite.stmt.QueryBuilder;
 import com.j256.ormlite.stmt.UpdateBuilder;
 import com.mx.vipmediaplayer.Logger;
 
 /**
  * Database helper class
  * 
- * @author Xiao Mei
- * @weibo http://weibo.com/u/1675796095
- * @email tss_chs@126.com
+ * @author Song Wang
+ * @email song.wang.au@gmail.com
  * 
  */
 @SuppressWarnings({ "unchecked", "rawtypes" })
 public class DatabaseHelper<T> {
 
-    /** 新增一条记录 */
     public int create(T po) {
         SqliteHelperOrm db = new SqliteHelperOrm();
         try {
@@ -70,7 +67,7 @@ public class DatabaseHelper<T> {
         return -1;
     }
 
-    /** 查询一条记录 */
+    /** ������������������ */
     public List<T> queryForEq(Class<T> c, String fieldName, Object value) {
         SqliteHelperOrm db = new SqliteHelperOrm();
         try {
@@ -85,7 +82,7 @@ public class DatabaseHelper<T> {
         return new ArrayList<T>();
     }
 
-    /** 删除一条记录 */
+    /** ������������������ */
     public int remove(T po) {
         SqliteHelperOrm db = new SqliteHelperOrm();
         try {
@@ -101,12 +98,12 @@ public class DatabaseHelper<T> {
     }
 
     /**
-     * 根据特定条件更新特定字段
+     * ������������������������������������
      * 
      * @param c
      * @param values
-     * @param columnName where字段
-     * @param value where值
+     * @param columnName where������
+     * @param value where���
      * @return
      */
     public int update(Class<T> c, ContentValues values, String columnName, Object value) {
@@ -128,7 +125,7 @@ public class DatabaseHelper<T> {
         return -1;
     }
 
-    /** 更新一条记录 */
+    /** ������������������ */
     public int update(T po) {
         SqliteHelperOrm db = new SqliteHelperOrm();
         try {
@@ -144,7 +141,7 @@ public class DatabaseHelper<T> {
         return -1;
     }
 
-    /** 查询所有记录 */
+    /** ������������������ */
     public List<T> queryForAll(Class<T> c) {
         SqliteHelperOrm db = new SqliteHelperOrm();
         try {

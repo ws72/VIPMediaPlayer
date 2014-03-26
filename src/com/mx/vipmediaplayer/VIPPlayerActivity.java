@@ -37,9 +37,8 @@ import com.mx.vipmediaplayer.util.FileUtils;
 /**
  * main activity class of this application
  * 
- * @author Xiao Mei
- * @weibo http://weibo.com/u/1675796095
- * @email tss_chs@126.com
+ * @author Song Wang
+ * @email song.wang.au@gmail.com
  * 
  */
 public class VIPPlayerActivity extends Activity implements OnTouchListener,
